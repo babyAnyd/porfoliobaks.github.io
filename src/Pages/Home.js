@@ -1,4 +1,5 @@
 import me from "../Images/me.jpg";
+import wave from "../Images/hiwave.JPG";
 import {
   FaCoffee,
   FaMapMarked,
@@ -14,13 +15,14 @@ export const Home = () => {
     <div>
       <main>
         <div className="img-div">
-          <img src={me} alt="profile" />
+          <img className="profile" src={me} alt="profile" />
         </div>
         <div className="info">
           <h1>
-            Hi , I'm{" "}
-            <span id="profile-name" className="profile-moving">
-              Vincent
+            Hi , I'm
+            <span id="profile-name"> Vincent</span>
+            <span>
+              <img className="wave" src={wave} />
             </span>
           </h1>
           <h3>I'm a Survey Programmer.</h3>
@@ -53,16 +55,27 @@ export const Home = () => {
           <div className="media-ref">
             <ul>
               <li>
-                <FaFacebookF size="35px" />
+                <a target="_blank" href="https://www.facebook.com/vinsoyss">
+                  <FaFacebookF size="35px" />
+                </a>
               </li>
               <li>
-                <FaInstagramSquare size="35px" />
+                <a href="https://www.instagram.com/benchuyest/" target="_blank">
+                  <FaInstagramSquare size="35px" />
+                </a>
               </li>
               <li>
-                <FaLinkedinIn size="35px" />
+                <a
+                  href="https://www.linkedin.com/in/vincent-baquiro-20631420a/"
+                  target="_blank"
+                >
+                  <FaLinkedinIn size="35px" />
+                </a>
               </li>
               <li>
-                <FaGithubSquare size="35px" />
+                <a href="https://github.com/" target="_blank">
+                  <FaGithubSquare size="35px" />
+                </a>
               </li>
             </ul>
           </div>

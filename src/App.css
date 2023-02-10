@@ -69,7 +69,7 @@ nav ul li a {
   
 }
 
-img {
+.profile {
   max-width: 400px;
   border-radius: 100%;
   background: -webkit-linear-gradient(135deg, rgb(0, 255, 164), rgb(166, 104, 255));
@@ -102,7 +102,7 @@ background: linear-gradient(to top left, #29CFC9 31%, #2792CF 100%);
  }
 
 
- .profile-moving {
+ .wave{
   animation-name: wave;
   animation-duration: 2.5s;
   animation-iteration-count: infinite;
@@ -159,6 +159,10 @@ background: linear-gradient(to top left, #29CFC9 31%, #2792CF 100%);
 .media-ref ul {
   display: flex;
   justify-content: space-evenly;
+}
+
+.media-ref ul li a {
+  color: black;
 }
 
 #light{
@@ -355,7 +359,8 @@ footer {
   .img-div {
     margin-top: 50px;
   }
-  img{
+
+  .profile{
     height: auto;
     width: 70%;
     display: block;

@@ -25,7 +25,7 @@ export const About = () => {
         </div>
         <div className="sec-1-child">
           <p>
-            <span className="span-green">vincentbaquiro $ </span> cat
+            <span className="span-green">vincentbaquiro $ </span> cd
             aboutvincent
           </p>
           <p>
@@ -67,8 +67,9 @@ export const About = () => {
           <ul>
             <li>Javascript</li>
             <li>React</li>
-            <li>HTM5</li>
+            <li>HTML5</li>
             <li>CSS3</li>
+            <li>Bootstrap(Intermediate)</li>
           </ul>
           <p>
             <span className="span-green">Expose To</span>
