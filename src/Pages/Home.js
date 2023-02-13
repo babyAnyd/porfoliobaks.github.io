@@ -35,7 +35,7 @@ export const Homes = () => {
                 <img className="wave" src={wave} />
               </span>
             </h1>
-            <h3>I'm a Survey Programmer.</h3>
+            <h3>I am a Survey Programmer.</h3>
             <ul>
               <li>
                 <span>

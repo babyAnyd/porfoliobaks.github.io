@@ -1,13 +1,5 @@
-import axios from "axios";
 import { motion } from "framer-motion";
-import { useEffect } from "react";
 export const Projects = () => {
-  useEffect(() => {
-    axios
-      .get("https://catfact.ninja/fact")
-      .then((res) => console.log(res.data.fact));
-  }, []);
-
   return (
     <div>
       <motion.div

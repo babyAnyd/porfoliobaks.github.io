@@ -4,7 +4,6 @@ import { BrowserRouter as Router } from "react-router-dom";
 import { createContext, useState } from "react";
 import { Footers } from "./Pages/Footer";
 import { Animation } from "./Components/AnimatedRoutes";
-import { useLocation } from "react-router-dom";
 
 export const ColorTheme = createContext(null);
 function App() {
