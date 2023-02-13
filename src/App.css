@@ -221,12 +221,19 @@ nav ul Link {
   font-size: 40px;
   position: relative;
   top: -16px;
+  font-weight: bold;
 }
 
 .js-center:hover {
   top: -23px;
   transition: .3s ease;
 }
+
+#active {
+  background-color: #2792CF;
+}
+
+
 
 
 .border-green {

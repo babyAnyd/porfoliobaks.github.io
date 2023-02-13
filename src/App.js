@@ -1,10 +1,11 @@
 import "./App.css";
-import { Header } from "./NavBar";
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import { Home } from "./Pages/Home";
-import { About } from "./Pages/About";
+import { Header } from "./Components/NavBar";
+import { BrowserRouter as Router } from "react-router-dom";
 import { createContext, useState } from "react";
 import { Footers } from "./Pages/Footer";
+import { Animation } from "./Components/AnimatedRoutes";
+import { useLocation } from "react-router-dom";
+
 export const ColorTheme = createContext(null);
 function App() {
   const [theme, setTheme] = useState("light");
@@ -12,15 +13,13 @@ function App() {
   const changeTheme = () => {
     setTheme((curr) => (curr === "light" ? "dark" : "light"));
   };
+
   return (
     <ColorTheme.Provider value={{ theme, changeTheme }}>
       <div className="App" id={theme}>
         <Router>
           <Header theme={theme} changeTheme={changeTheme} />
-          <Routes>
-            <Route path="/" element={<Home />} />
-            <Route path="/about" element={<About />} />
-          </Routes>
+          <Animation />
           <Footers />
         </Router>
       </div>
