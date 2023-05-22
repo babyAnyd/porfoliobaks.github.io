@@ -1,12 +1,14 @@
-import { Link } from "react-router-dom";
+import { Link, useLocation } from "react-router-dom";
 import { useContext } from "react";
 import { ColorTheme } from "../App";
-import { HeaderUl } from "../HeaderList";
+import { HeaderUl } from "./HeaderList";
 import ReactSwitch from "react-switch";
 
 export const Header = () => {
   const { theme, changeTheme } = useContext(ColorTheme);
+  const location = useLocation();
 
+  console.log(location);
   return (
     <header>
       <nav>
@@ -14,14 +16,18 @@ export const Header = () => {
           {HeaderUl.map((list, key) => {
             return (
               <li key={key}>
-                <Link to={list.links} className={list.className}>
+                <Link
+                  to={list.links}
+                  className={list.className}
+                  id={location.pathname === list.links ? "active" : ""}
+                >
                   {list.title}
                 </Link>
               </li>
             );
           })}
           <li>
-            <Link to="/">
+            <Link>
               <ReactSwitch onChange={changeTheme} checked={theme === "dark"} />
             </Link>
           </li>

@@ -1,14 +1,13 @@
-import { Routes, Route, useLocation } from "react-router-dom";
+import { Routes, Route } from "react-router-dom";
 import { Homes } from "../Pages/Home";
-import { Abouts } from "../Pages/About";
-import { Projects } from "../Pages/Porfolio";
+import { About } from "../Pages/About";
+import { Projects } from "../Pages/Portfolio";
 
 export const Animation = () => {
-  const location = useLocation();
   return (
-    <Routes location={location} key={location.pathname}>
-      <Route path="/home" element={<Homes />} />
-      <Route path="/about" element={<Abouts />} />
+    <Routes>
+      <Route path="/" element={<Homes />} />
+      <Route path="/about" element={<About />} />
       <Route path="/portfolio" element={<Projects />} />
     </Routes>
   );

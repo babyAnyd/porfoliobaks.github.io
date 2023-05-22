@@ -1,21 +1,22 @@
 export const HeaderUl = [
   {
     title: "Home",
-    links: "/home",
-    className: "border-bottom",
+    links: "/",
+    className: "menu-hover",
   },
   {
     title: "About",
     links: "/about",
-    className: "border-bottom",
+    className: "menu-hover",
   },
   {
     title: "js",
+    links: "/",
     className: "js-center",
   },
   {
     title: "Portfolio",
     links: "/portfolio",
-    className: "border-bottom",
+    className: "menu-hover",
   },
 ];

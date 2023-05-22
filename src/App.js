@@ -1,4 +1,5 @@
 import "./App.css";
+import "./Styles/main.css";
 import { Header } from "./Components/NavBar";
 import { BrowserRouter as Router } from "react-router-dom";
 import { createContext, useState } from "react";

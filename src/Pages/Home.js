@@ -32,7 +32,7 @@ export const Homes = () => {
               Hi , I'm
               <span id="profile-name"> Vincent</span>
               <span>
-                <img className="wave" src={wave} />
+                <img className="wave" src={wave} alt="wave" />
               </span>
             </h1>
             <h3>I am a Survey Programmer.</h3>
@@ -65,7 +65,11 @@ export const Homes = () => {
             <div className="media-ref">
               <ul>
                 <li>
-                  <a target="_blank" href="https://www.facebook.com/vinsoyss">
+                  <a
+                    target="_blank"
+                    rel="noreferrer"
+                    href="https://www.facebook.com/vinsoyss"
+                  >
                     <FaFacebookF size="35px" />
                   </a>
                 </li>
@@ -73,6 +77,7 @@ export const Homes = () => {
                   <a
                     href="https://www.instagram.com/benchuyest/"
                     target="_blank"
+                    rel="noreferrer"
                   >
                     <FaInstagramSquare size="35px" />
                   </a>
@@ -81,12 +86,17 @@ export const Homes = () => {
                   <a
                     href="https://www.linkedin.com/in/vincent-baquiro-20631420a/"
                     target="_blank"
+                    rel="noreferrer"
                   >
                     <FaLinkedinIn size="35px" />
                   </a>
                 </li>
                 <li>
-                  <a href="https://github.com/" target="_blank">
+                  <a
+                    href="https://github.com/"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
                     <FaGithubSquare size="35px" />
                   </a>
                 </li>

@@ -1,0 +1,46 @@
+nav ul li  {
+  list-style-type: none;
+  font-size: 15px;
+  height: 20px;
+  
+}
+
+nav ul {
+  display: grid;
+  grid-template-columns: repeat(5,1fr);
+  grid-template-rows: repeat(1,1fr);
+  max-width: 900px;
+  margin: auto;
+  padding: 20px;
+  text-align: center;
+}
+
+nav ul li a {
+  text-decoration: none;
+  font-size: 20px;
+  color:black;
+  
+}
+
+.menu-hover:hover{
+  border-bottom: 6px solid rgb(16,208,186);
+  transition: all .24s ease;
+}
+
+#active {
+  border-bottom: 6px solid rgb(16,208,186);
+}
+
+.js-center {
+  font-size: 40px;
+  position: relative;
+  top: -16px;
+  font-weight: bold;
+  border-width: 0!important;
+}
+
+.js-center:hover {
+  top: -23px;
+  transition: .3s ease;
+  border-bottom: 6px solid rgb(16,208,186);
+}

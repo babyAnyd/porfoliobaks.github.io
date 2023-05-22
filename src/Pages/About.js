@@ -8,7 +8,7 @@ import {
 
 import { motion } from "framer-motion";
 
-export const Abouts = () => {
+export const About = () => {
   return (
     <motion.div
       initial={{ width: 0 }}
