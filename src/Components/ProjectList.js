@@ -2,7 +2,7 @@ export const ProjectList = [
   {
     projectTitle: "Portfolio",
     imgLink:
-      "https://drive.google.com/uc?export=view&id=1djP0USBO1aIxC5uG6ELC3MIB_kVteyHC",
+      "https://drive.google.com/uc?export=view&id=1jF2U-VzaBj32xEvN1ac52JdO-ZJNOzQ5",
     alt: "project1",
     liveDemo: "https://portfoliobaks.netlify.app",
     sourceCode: "https://github.com/babyAnyd/porfoliobaks.github.io.git",
