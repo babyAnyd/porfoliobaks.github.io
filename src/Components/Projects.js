@@ -12,7 +12,6 @@ export const ProjectsDone = () => {
               <LazyLoad threshold={0.95}>
                 <img src={images.imgLink} alt={images.alt} />
               </LazyLoad>
-
               <h2>{images.projectTitle}</h2>
               <button className="live-demo">
                 <div className="link-wrap">
