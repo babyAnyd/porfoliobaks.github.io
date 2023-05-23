@@ -5,6 +5,13 @@
     gap: 20px;
     max-width: 1700px;
     margin: auto;
+    @include for-md-phone {
+        grid-template-columns: repeat(1,1fr);
+        grid-template-rows: repeat(2,1fr);
+    }
+    @include for-xxl-desktop {
+        width: 95%;
+    }
 }
 
 .projects img {
@@ -14,6 +21,10 @@
     box-shadow: 0px 0px 10px 5px rgb(209, 204, 196);
     border-radius: 20px;
     margin-top: 50px;
+    @include for-md-phone{
+        width: 90%;
+        height: auto;
+    }
 }
 
 .projects h2 {
@@ -24,6 +35,8 @@
 
 .projects a {
     padding-top:4px ;
+    text-decoration: none;
+    color: black;
 }
 
 .projects button {
@@ -34,8 +47,7 @@
     font-size: 20px;
     border-radius: 40px;
     padding: 5px 15px;
-    border-color: black;
-   
+    border-color: black; 
 }
 
 .link-wrap {
@@ -51,6 +63,21 @@
 }
 
 .projects button:hover {
+    color: rgb(207, 203, 197);
+    transition: .4s ease;
+}
+
+.link-wrap a:hover {
+    color: rgb(207, 203, 197);
+    transition: .4s ease;
+}
+
+#dark .link-wrap a {
+    color:white;
+    transition: .4s ease;
+}
+
+#dark .link-wrap a:hover {
     color: rgb(207, 203, 197);
     transition: .4s ease;
 }
@@ -72,23 +99,4 @@
 
 #dark .projects h2 {
     color: white;
-}
-
-
-@media (max-width: 600px) {
-    .projects {
-        grid-template-columns: repeat(1,1fr);
-        grid-template-rows: repeat(2,1fr);
-    }
-
-    .projects img {
-        width: 90%;
-        height: auto;
-    }
-}
-
-@media (max-width:1700px) {
-    .projects {
-        width: 95%;
-    }
 }

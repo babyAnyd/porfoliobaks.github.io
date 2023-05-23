@@ -1,5 +1,4 @@
 import me from "../Images/me.jpg";
-import wave from "../Images/hiwave.JPG";
 import {
   FaCoffee,
   FaMapMarked,
@@ -9,6 +8,7 @@ import {
   FaInstagramSquare,
   FaLinkedinIn,
   FaGithubSquare,
+  FaHandSpock,
 } from "react-icons/fa";
 import { motion } from "framer-motion";
 
@@ -32,7 +32,12 @@ export const Homes = () => {
               Hi , I'm
               <span id="profile-name"> Vincent</span>
               <span>
-                <img className="wave" src={wave} alt="wave" />
+                <FaHandSpock
+                  className="wave"
+                  alt="wave"
+                  size="70px"
+                  color="#EBD575"
+                />
               </span>
             </h1>
             <h3>I am a Survey Programmer.</h3>
@@ -70,7 +75,7 @@ export const Homes = () => {
                     rel="noreferrer"
                     href="https://www.facebook.com/vinsoyss"
                   >
-                    <FaFacebookF size="35px" />
+                    <FaFacebookF id="visit-link" size="35px" />
                   </a>
                 </li>
                 <li>
@@ -79,7 +84,7 @@ export const Homes = () => {
                     target="_blank"
                     rel="noreferrer"
                   >
-                    <FaInstagramSquare size="35px" />
+                    <FaInstagramSquare id="visit-link" size="35px" />
                   </a>
                 </li>
                 <li>
@@ -88,7 +93,7 @@ export const Homes = () => {
                     target="_blank"
                     rel="noreferrer"
                   >
-                    <FaLinkedinIn size="35px" />
+                    <FaLinkedinIn id="visit-link" size="35px" />
                   </a>
                 </li>
                 <li>
@@ -97,7 +102,7 @@ export const Homes = () => {
                     target="_blank"
                     rel="noreferrer"
                   >
-                    <FaGithubSquare size="35px" />
+                    <FaGithubSquare id="visit-link" size="35px" />
                   </a>
                 </li>
               </ul>

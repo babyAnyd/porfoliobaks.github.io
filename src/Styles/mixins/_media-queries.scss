@@ -1,18 +1,18 @@
 @mixin for-md-phone {
     @media (max-width: 767px) {
-         @content;
+        @content;
     }
 }
 
 @mixin for-sm-phone {
     @media (max-width: 462px) {
-         @content;
+        @content;
     }
 };
 
 @mixin for-xxl-desktop {
-    @media (max-width: 1880px) {
-         @content;
+    @media (max-width: 1700px) {
+        @content;
     }
 };
 

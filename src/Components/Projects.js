@@ -17,14 +17,18 @@ export const ProjectsDone = () => {
               <button className="live-demo">
                 <div className="link-wrap">
                   <FaCode size="30px" />
-                  <a>Live Demo</a>
+                  <a href={images.liveDemo} target="_blank" rel="noreferrer">
+                    Live Demo
+                  </a>
                 </div>
               </button>
               <div></div>
               <button className="source-code">
                 <div className="link-wrap">
                   <FaCompass size="30px" />
-                  <a>Source code</a>
+                  <a href={images.sourceCode} target="_blank" rel="noreferrer">
+                    Source code
+                  </a>
                 </div>
               </button>
             </div>
