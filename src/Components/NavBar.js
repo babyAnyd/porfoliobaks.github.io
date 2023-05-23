@@ -8,7 +8,6 @@ export const Header = () => {
   const { theme, changeTheme } = useContext(ColorTheme);
   const location = useLocation();
 
-  console.log(location);
   return (
     <header>
       <nav>
@@ -36,25 +35,3 @@ export const Header = () => {
     </header>
   );
 };
-
-// <ul>
-//   <li>
-//     <Link className="border-bottom" to="/">
-//       Home
-//     </Link>
-//   </li>
-//   <li>
-//     <Link className="border-bottom" to="/about">
-//       About
-//     </Link>
-//   </li>
-//   <li>
-//     <Link className="js-center">Js</Link>
-//   </li>
-//   <li>
-//     <Link className="border-bottom" to="/">
-//       Portfolio
-//     </Link>
-//   </li>
-
-// </ul>;

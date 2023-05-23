@@ -1,4 +1,5 @@
 import { motion } from "framer-motion";
+import { ProjectsDone } from "../Components/Projects";
 export const Projects = () => {
   return (
     <div>
@@ -7,7 +8,7 @@ export const Projects = () => {
         animate={{ width: "100%" }}
         exit={{ x: window.innerWidth, transition: { duration: 1 } }}
       >
-        <div style={{ textAlign: "center" }}>This is my portfolio</div>;
+        <ProjectsDone />
       </motion.div>
       ;
     </div>
