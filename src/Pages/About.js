@@ -39,9 +39,11 @@ export const About = () => {
               <span className="span-green">aboutvincent</span>
               <span className="span-rgb-green">(main)</span>
               <span className="span-green"> $</span> Hello! I'm vincent. I'm a
-              Survey Programmer from Dynata, with a year of experience. I enjoy
-              long walks on the beach, and I believe artificial intelligence
-              will inevitably rule us all one day. You should hire me!
+              Survey/Research Programmer from Dynata, with 2 years of experience
+              since November 2021 working with multiple projects in Research
+              Programming and I also managed my life balance enjoying long walks
+              on the beach, and I believe artificial intelligence will
+              inevitably rule us all one day. You should hire me!
             </p>
           </div>
         </section>
