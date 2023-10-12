@@ -64,7 +64,7 @@ export const Homes = () => {
                 <span>
                   <FaMailBulk id="info-icons" size="25px" />
                 </span>
-                <span id="info-text">baquirovincent@gmail.com</span>
+                <span id="info-text">baquirovincent673@gmail.com</span>
               </li>
             </ul>
             <div className="media-ref">

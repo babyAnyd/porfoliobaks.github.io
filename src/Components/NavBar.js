@@ -25,6 +25,15 @@ export const Header = () => {
               </li>
             );
           })}
+          {/* <li>
+            <Link
+              className="menu-hover"
+              to="https://drive.google.com/file/d/1grAPLah23-bUWKoRhZo-ZY17QoEW-4tE/view"
+              target="_blank"
+            >
+              Resume
+            </Link>
+          </li> */}
           <li>
             <Link>
               <ReactSwitch onChange={changeTheme} checked={theme === "dark"} />
