@@ -76,14 +76,12 @@ export const About = () => {
             </p>
             <ul>
               <li>Javascript</li>
-              <li>React</li>
+              <li>React Js</li>
               <li>HTML5</li>
+              <li>SASS</li>
               <li>CSS3</li>
               <li>Bootstrap(Intermediate)</li>
             </ul>
-            <p>
-              <span className="span-green">Expose To</span>
-            </p>
             <ul>
               <li>Python</li>
               <li>Decipher</li>
