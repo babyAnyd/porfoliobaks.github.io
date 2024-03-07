@@ -45,6 +45,6 @@ export const ProjectList = [
     imgLink: projectSix,
     alt: "project6",
     liveDemo: "https://landingbaks.netlify.app",
-    sourceCode: "",
+    sourceCode: "https://github.com/babyAnyd/landing-page",
   },
 ];
